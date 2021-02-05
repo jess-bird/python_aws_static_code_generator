@@ -1,0 +1,36 @@
+prefix_timeDate_rule1:
+	source.event:
+		- eventType: "source"
+		- identifier: "rule1"
+		- actions:
+			- tag: action1
+			- tag: action2
+		- onlyif:
+			- key:
+				someflagMetadata: PROBLEM
+		- environment: env1
+		
+prefix_timeDate_rule2:
+	source.event:
+		- eventType: "source"
+		- identifier: "rule2"
+		- actions:
+			- tag: action1
+			- tag: action2
+		- onlyif:
+			- key:
+				someflagMetadata: PROBLEM
+		- environment: env1
+		
+prefix_timeDate_rule3:
+	source.event:
+		- eventType: "source"
+		- identifier: "rule3"
+		- actions:
+			- tag: action1
+			- tag: action2
+		- onlyif:
+			- key:
+				someflagMetadata: PROBLEM
+		- environment: env1
+		
